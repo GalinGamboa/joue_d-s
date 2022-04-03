@@ -132,6 +132,7 @@ button span {
 
 .container_buttons {
     text-align: center;
+    display: none;
     
 }
 
