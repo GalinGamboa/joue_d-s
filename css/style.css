@@ -9,15 +9,15 @@
 
 .container {
     max-width: 1200px;
-    height: 620px;
+    height: 100%;
     background-image: linear-gradient(to top, rgba(209, 204, 140, 0.8) 0%,rgba(104, 156, 83, 0.8) 100%), url(../images/img/dés.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin:   5px auto;
+    margin:  auto;
     padding: 5px;
     justify-content: center;
     border: 5px solid rgb(117, 8, 190);
-    border-radius: 6px;
+    border-radius: 0px 0px 6px 6px;
 }
 
 .title{
@@ -39,6 +39,7 @@
     text-align: center;
     margin:0px;
     padding: 0px;
+    border-radius: 7px;
 }
 
 h2 {
@@ -46,7 +47,13 @@ h2 {
     padding-bottom: 2rem;
 }
 
-.points_glob,
+.points_glob{
+    font-size: 50px;
+    border: 3px solid rgb(117, 8, 190);
+    width: 55%;
+    margin:auto;
+}
+
 .points_temp {
     font-size: 25px;
     width: 55%;
@@ -61,13 +68,13 @@ h4{
 .dice {
     position: fixed;
     width: 150px;
-    top:275px;
-    left: calc(50% - 70px);
+    top:260px;
+    left: calc(50% - 77px);
 }
 
 button {
     margin: 20px;
-  }
+}
 
 .custom-btn {
     width: 140px;
@@ -108,13 +115,11 @@ button {
 button img ,
 button span {
      display:inline-block;
-
 }
 
 button img {
     margin-left: -80px;
-    margin-right: 10px;
-
+      margin-right: 10px;
 }
 
 button span {
@@ -126,20 +131,20 @@ button span {
     text-align: center;
     display: block;
     margin: 0 auto;
-
 }
 
 .container_buttons {
     text-align: center;
     display: none;
-    
 }
 
-
-
-
-
-
+.gagnant {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
 
 
 
@@ -167,14 +172,13 @@ button span {
         text-align: center;
         margin:0px;
         padding: 0px;
-
     }
 
     .dice {
         position: fixed;
         width: 110px;
-        top:215px;
-        left: calc(50% - 55px);
+        top:200px;
+        left: calc(50% - 57px);
     }
 
     h2 {
@@ -182,7 +186,10 @@ button span {
         padding-bottom: 1.5rem;
     }
 
-    .points_glob,
+    .points_glob{
+        font-size: 40px;
+    }
+
     .points_temp {
         font-size: 22px;
         width: 50%;
@@ -208,6 +215,13 @@ button span {
         margin-top: -1px;
     }
 
+    
+    .gagnant {
+        font-size: 28px;
+        margin-top: 15px;
+        padding-top: 20px;
+    }
+
 }
 
 
@@ -229,7 +243,11 @@ button span {
         padding-bottom: 1rem;
     }
 
-    .points_glob,
+    .points_glob{
+    font-size: 30px;
+    font-weight: bold;
+    }
+
     .points_temp {
         font-size: 14px;
         width: 55%;
@@ -240,8 +258,8 @@ button span {
     .dice {
         position: fixed;
         width: 75px;
-        top:210px;
-        left: calc(50% - 38px);
+        top:200px;
+        left: calc(50% - 39px);
     }
 
     h4 {
@@ -252,11 +270,16 @@ button span {
         width: 110px;
         font-size: 12px;
     }
+
     button img {
         margin-left: -70px;
         margin-right: 10px;
         margin-top: -6px;
     }
 
+    .gagnant {
+        font-size: 20px;
+        padding-top: 5px;
+    }
 
 }
